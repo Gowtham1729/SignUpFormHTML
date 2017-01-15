@@ -4,8 +4,8 @@ $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 $servername = "localhost";
-$username = "root";
-$password = "gowtham";
+$username = "username";
+$password = "password";
 $dbname = "History";
 
 // Check if image file is a actual image or fake image
